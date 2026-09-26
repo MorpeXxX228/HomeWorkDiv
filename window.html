@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        width: 900px;
+        margin: auto;
+    }
+    div{
+        display: flex;
+        gap: 20px;
+        border-radius: 16px;
+    }
+    .vert{
+        flex-direction: column;
+    }
+    .vis{
+        background-color: white;
+        width: 200px;
+        height: 400px;
+    }
+    .shir{
+        background-color: white;
+        width: 200px;
+        height: 200px;
+    }
+    .bol{
+        background-color: white;
+        width: 420px;
+        height: 400px;
+    }
+    .supshir{
+        background-color: white;
+        width: 420px;
+        height: 200px;
+    }
+    .supvis{
+        background-color: white;
+        width: 200px;
+        height: 410px;
+    }
+</style>
+<body>
+    <div>
+    <div class="vert">
+    <div>
+        <div class="vert">
+            <div class="vis"></div>
+            <div class="shir"></div>
+        </div>
+        <div class="vert">
+            <div>
+                <div class="shir"></div>
+                <div class="shir"></div>
+            </div>
+            <div class="bol"></div>
+        </div>
+    </div>
+    <div>
+            <div class="supshir"></div>
+            <div class="shir"></div>
+    </div>
+    </div>
+    <div class="vert">
+        <div class="supvis"></div>
+        <div class="supvis"></div>
+    </div>
+    </div>
+    
+</body>
+</html>
